@@ -1,24 +1,17 @@
 import React from 'react'
-import logo from './logo.svg'
 import './App.css'
 
 function App() {
+    const styles = {
+        color: 'blue',
+        marginTop: '2rem'
+    }
+
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+            <h1>Welcome to CI/CD tutorial</h1>
+            <h2 style={styles}>Thanks for following this tutorial,
+                this is the last commit</h2>
         </div>
     )
 }
